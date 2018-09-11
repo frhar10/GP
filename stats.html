@@ -1,0 +1,49 @@
+<div class="container">
+    <h1>Her er din statistik!</h1>
+    <div class="row" id="stats_row"></div>
+    <p></p>
+
+  <a href="#" id="maksimer_knap"><img src="images/plus_grey.png"></a>
+
+  <div id="ny_tracking">
+      <h2>Indtast tracking:</h2>
+      <div class="col-lg-6 col-lg-offset-3">
+          <form>
+              <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Email address</label> -->
+                  <input type="text" class="form-control" id="overskrift_felt" placeholder="Træning">
+              </div>
+              <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Email address</label> -->
+                  <input type="text" class="form-control" id="type_felt" placeholder="Armbøjninger">
+              </div>
+              <div class="form-group">
+                  <!-- <label for="exampleInputEmail1">Email address</label> -->
+                  <input type="number" class="form-control" id="amount_felt" placeholder="20">
+              </div>
+                  <!-- Lav positiv/negativ kanp -->
+
+              <button type="submit" id="indsend_tracking" class="btn btn-default">TRACK!</button>
+          </form>
+      </div>
+  </div>
+
+  <br />
+  <br />
+
+
+  <div class="multi_chart_div">
+      <h2>MultiChart:</h2>
+
+      <table class="highchart" data-graph-container-before="1" data-graph-type="line">
+          <thead>
+          <tr class="highchartThead">
+                <th>Dato:</th>
+          </tr>
+          </thead>
+          <tbody class="highchartTbody">
+
+          </tbody>
+      </table>
+  </div>
+</div>

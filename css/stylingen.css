@@ -1,0 +1,115 @@
+body {
+    text-align: center;
+    padding: 20px;
+    font-family: 'Lane', sans-serif;
+    font-size: 24px;
+}
+
+.indhold {
+    min-height: 200px;
+}
+
+@font-face {
+    font-family: LaPiedrita;
+    src: url('../fonts/LaPiedrita.otf');
+}
+
+@font-face {
+    font-family: Lane;
+    src: url('../fonts/LANE.ttf');
+}
+
+.vores_header{
+    font-family: 'LaPiedrita', sans-serif;
+    font-size: 34px;
+}
+
+.vores_footer{
+    position: fixed;
+    font-family: 'LaPiedrita', sans-serif;
+    bottom: 0;
+}
+
+#tracking-liste-indhold {
+    list-style-type: none;
+    border-bottom: solid 1px;
+    width: 25%;
+    margin: 10px 0px 10px 0px;
+}
+
+.btn-general {
+    border-radius: 5px;
+    color: #030502;
+    height: 30px;
+    padding: 3px 15px 3px 15px;
+    background-color: #3db9be;
+    border-color: #37bda0;
+}
+
+.btn-general:hover {
+    border-color: #22785e;
+    color: #464646;
+}
+
+#liste-knapper {
+    position: relative;
+    top: 5px;
+}
+
+.statistikkasse{
+    border: 1px solid lightgray;
+    border-radius: 15px;
+    margin: 5px;
+}
+
+.specifik_tabel{
+    border-bottom: 1px dashed lightgray;
+    width: 300px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.slet_knap{
+    position: absolute;
+    right: 4%;
+    top: 3%;
+}
+
+.info_liste{
+    text-align: left;
+}
+
+.coloumn_chart{
+    max-width: 900px;
+    max-height: 500px;
+}
+
+.billed_scale{
+    max-width: 80%;
+}
+
+#logo{
+    width: 60px; /* eller 80px */
+    height: 66px;/* eller 88px */
+    clear: both;
+}
+
+#video{
+    width: 560px;
+    height: 315px;
+}
+
+/* Når skærmen er stor */
+@media screen and (min-width: 768px){
+    #video{
+        width: 853px;
+        height: 480px;
+    }
+
+    #logo{
+        width: 120px;
+        height: 132px;
+        float: left;
+    }
+}
